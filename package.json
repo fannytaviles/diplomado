@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "next": "^1.2.3",
+    "normalize-styled": "^1.0.0",
+    "normalize.css": "^5.0.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-styled-flexboxgrid": "^1.0.2",
+    "styled-components": "^1.4.4"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "name": "Fanny",
+  "version": "1.0.0",
+  "description": "Diplomado de React",
+  "main": "index.js",
+  "author": "Fanny",
+  "license": "MIT"
+}
