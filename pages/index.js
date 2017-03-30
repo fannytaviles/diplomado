@@ -3,18 +3,7 @@ import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 import { ThemeProvider } from 'styled-components';
 import theme from '../lib/theme';
-import { injectGlobal } from 'styled-components';
-
-injectGlobal`
-  @font-face {
-    font-family: 'Operator Mono';
-    src: url('../fonts/Operator-Mono.ttf');
-  }
-
-  body {
-    margin: 0;
-  }
-`;
+import theme2 from '../lib/theme2';
 
 export default class Home extends Component {
   render() {

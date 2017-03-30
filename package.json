@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "next": "^1.2.3",
+    "next": "^2.0.0",
     "normalize-styled": "^1.0.0",
     "normalize.css": "^5.0.0",
     "react": "^15.4.2",

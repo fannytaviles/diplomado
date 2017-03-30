@@ -11,12 +11,13 @@ const Wrapper = styled.div`
 function Footer (props) {
   return (
     <Wrapper>
-      <Row>
-        {props.benefits.map((benefit) => {
+      <Row center="xs">
+        {props.benefits.map((benefit, index) => {
           return (
-            <Col xs={3}>
+            <Col xs={12} sm={3}>
               <Benefit 
                 {...benefit}
+                key={index}
               />
             </Col>
           )
